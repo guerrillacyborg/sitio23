@@ -1,6 +1,6 @@
 html {
-  /* height: 100%;
-  width: 100%; */
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 }
 
 #galeria {
-  background-image: url(/asset/img/festival.jpg);
-  background-repeat: no-repeat;
+  background-image: url(/asset/img/festivalsitio23.jpg);
+  /* background-repeat: no-repeat; */
   background-size: contain; 
   background-position: bottom;
 }
@@ -28,12 +28,46 @@ h1 {
   color: blue;
 }
 
-
 .card-title {
   color: rgb(222, 66, 99);
 }
 
 .card {
-  background-color: rgb(201, 202, 182);
+  background-color: lightgrey;
   color: rgb(40, 41, 45);
+}
+
+.col-md-8 {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }

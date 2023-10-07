@@ -10,7 +10,7 @@ body {
 }
 
 #galeria {
-  background-image: url(/asset/img/festivalsitio23.jpg);
+  background-image: url(./asset/img/festivalsitio23.jpg);
   /* background-repeat: no-repeat; */
   background-size: contain; 
   background-position: bottom;
